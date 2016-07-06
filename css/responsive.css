@@ -7,20 +7,23 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 	color: blue;
+	font-size:20px;
 
 }
 
 .side {
 	width: 100% !important;
-	/*transform: rotate(360deg);*/
+	-webkit-transform: rotate(360deg) ;
+	transition: width 2s ,-webkit-transform 2s;
 	height: 40% !important;
-	font-size: 1em;
 	text-align: center;
+	
 }
 
-@media screen and (orientation: landscape) {
+/*@media screen and (orientation: landscape) {
 	body {
 		color: red;
 	}
-}
+}*/
+
 
